@@ -1,0 +1,5 @@
+C:\Users\72824\Desktop\JPager.Net\JPager.Net\bin\Debug\JPager.Net.dll
+C:\Users\72824\Desktop\JPager.Net\JPager.Net\bin\Debug\JPager.Net.pdb
+C:\Users\72824\Desktop\JPager.Net\JPager.Net\obj\Debug\JPager.Net.csprojResolveAssemblyReference.cache
+C:\Users\72824\Desktop\JPager.Net\JPager.Net\obj\Debug\JPager.Net.dll
+C:\Users\72824\Desktop\JPager.Net\JPager.Net\obj\Debug\JPager.Net.pdb

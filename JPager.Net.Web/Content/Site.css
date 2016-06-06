@@ -1,0 +1,63 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+input {
+    border: 1px solid #008b8b;
+    height: 30px;
+    line-height: 30px;
+}
+
+table {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+    table td {
+        border: 1px solid #008b8b;
+        height: 40px;
+    }
+
+    table th {
+        border: 1px solid #008b8b;
+        text-align: center;
+        background: azure;
+        height: 45px;
+    }
+
+.jpager {
+    height: 40px;
+}
+
+    .jpager a {
+        display: inline-block;
+        height: 30px;
+        width: 35px;
+        text-align: center;
+        line-height: 30px;
+        border: 1px solid #008b8b;
+        margin: 2px;
+        color: black;
+    }
+
+        .jpager a:hover {
+            /*color: white;
+    background: #008b8b;*/
+            text-decoration: none;
+        }

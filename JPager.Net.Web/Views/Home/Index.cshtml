@@ -1,0 +1,39 @@
+﻿@model JPager.Net.PagerResult<JPager.Net.Web.Models.User>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>JPager</h2>
+<div>
+    <div>
+        <form method="get">
+            <input name="Name" />
+            <input name="Age"/>
+            <input type="submit" value="查寻" />
+        </form>
+    </div>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Score</th>
+            <th>AddTime</th>
+        </tr>
+        @foreach (JPager.Net.Web.Models.User item in Model.DataList)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Age</td>
+                <td>@item.Score</td>
+                <td>@item.AddTime</td>
+            </tr>
+        }
+    </table>
+
+</div>
+<div>
+    @Html.Raw(Model.PagerHtml()) 共 @Model.Total 条
+</div>
+

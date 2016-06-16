@@ -56,8 +56,41 @@ table {
         color: black;
     }
 
+        .jpager a[cur] {
+            color: black;
+            border: none;
+        }
+
         .jpager a:hover {
-            /*color: white;
-    background: #008b8b;*/
             text-decoration: none;
+        }
+
+
+.myPager {
+    height: 40px;
+}
+
+    .myPager a {
+        display: inline-block;
+        border-radius: 18px;
+        height: 36px;
+        width: 36px;
+        text-align: center;
+        line-height: 36px;
+        border: 1px solid #008b8b;
+        margin: 2px;
+        color: black;
+    }
+
+        .myPager a[cur] {
+            background: #008b8b;
+            color: white;
+        }
+
+        .myPager a:hover {
+            color: white;
+            background: #008b8b;
+            text-decoration: none;
+            -webkit-transition: width .25s ease-in-out, background-color .25s linear;
+            transitiona: width .25s ease-in-out, background-color .25s linear;
         }

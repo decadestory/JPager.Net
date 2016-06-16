@@ -1,4 +1,14 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
   &lt;Assembly Path="C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Web.dll" /&gt;&#xD;
-&lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/RunConfigs/Active/@EntryValue">A80DA0E464D9824F8E2FF6835B02D1C2</s:String>
+	<s:Boolean x:Key="/Default/RunConfigs/Config/=3B2CBA29CD129F458A5634BCBDC21329/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/RunConfigs/Config/=3B2CBA29CD129F458A5634BCBDC21329/DefaultAction/@EntryValue">run</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=3B2CBA29CD129F458A5634BCBDC21329/Name/@EntryValue">JPager.Net.Web</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=3B2CBA29CD129F458A5634BCBDC21329/ProjectGuid/@EntryValue">1E3F1FAAE13ABE48AD65142264764DF2</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=3B2CBA29CD129F458A5634BCBDC21329/Type/@EntryValue">project</s:String>
+	<s:Boolean x:Key="/Default/RunConfigs/Config/=A80DA0E464D9824F8E2FF6835B02D1C2/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/RunConfigs/Config/=A80DA0E464D9824F8E2FF6835B02D1C2/Name/@EntryValue">JPager.Net.Web</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=A80DA0E464D9824F8E2FF6835B02D1C2/ProjectGuid/@EntryValue">1E3F1FAAE13ABE48AD65142264764DF2</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=A80DA0E464D9824F8E2FF6835B02D1C2/Type/@EntryValue">project</s:String></wpf:ResourceDictionary>

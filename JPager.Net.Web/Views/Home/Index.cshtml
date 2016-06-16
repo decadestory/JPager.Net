@@ -34,6 +34,14 @@
 
 </div>
 <div>
+    @Html.Raw(Model.PagerHtml(size: 0)) 共 @Model.Total 条
+</div>
+<div>
     @Html.Raw(Model.PagerHtml()) 共 @Model.Total 条
 </div>
-
+<div>
+    @Html.Raw(Model.PagerHtml(size: 20)) 共 @Model.Total 条
+</div>
+<div>
+    @Html.Raw(Model.PagerHtml("myPager")) 共 @Model.Total 条
+</div>
